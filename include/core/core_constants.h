@@ -1,0 +1,7 @@
+#ifndef CORE_CONSTANTS_H
+#define CORE_CONSTANTS_H
+
+#define IFACE_LENGTH 64
+#define MAX_CAPTURED_BYTES 65535 
+
+#endif 

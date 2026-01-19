@@ -1,0 +1,18 @@
+#ifndef DNS_RESPONSE_CODES_H
+#define DNS_RESPONSE_CODES_H
+
+typedef enum {
+    DNS_RCODE_NOERROR  = 0,
+    DNS_RCODE_FORMERR  = 1,
+    DNS_RCODE_SERVFAIL = 2,
+    DNS_RCODE_NXDOMAIN = 3,
+    DNS_RCODE_NOTIMP   = 4,
+    DNS_RCODE_REFUSED  = 5,
+    DNS_RCODE_YXDOMAIN = 6,
+    DNS_RCODE_YXRRSET  = 7,
+    DNS_RCODE_NXRRSET  = 8,
+    DNS_RCODE_NOTAUTH  = 9,
+    DNS_RCODE_NOTZONE  = 10
+} dns_rcode_t;
+
+#endif

@@ -1,0 +1,8 @@
+#ifndef DHCP_CONSTANTS_H
+#define DHCP_CONSTANTS_H
+
+#define MIN_BOOTP_FIXED    236 
+#define MIN_DHCP_COOKIE      4 /
+#define MIN_DHCP_BASE      (MIN_BOOTP_FIXED + MIN_DHCP_COOKIE)  
+
+#endif

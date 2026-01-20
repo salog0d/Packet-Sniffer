@@ -1,6 +1,9 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <pcap.h>
+#include <string.h>
+
+#define IFACE_LENGTH 64
  
 int main(){
 
